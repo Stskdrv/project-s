@@ -46,7 +46,16 @@
 }
 
 @media screen and ( max-width: 991px ){
+    .advantages {
+        
 
+
+        
+        &__item{
+            
+            padding: 0 10px;
+        }
+    }
 }
 
 
@@ -62,10 +71,10 @@
         }
         &__item{
             max-width: 300px;
+            padding: 0 10px;
         }
     }
-}  
-
+}
 
 @media screen and ( max-width: 575px ){
     .advantages {
@@ -85,6 +94,7 @@
             color: #0d0d0d;
             font-size: 18px;
             font-weight: 700;
+            text-align: center;
         }
         &__descr{
             margin-top: 26px;
