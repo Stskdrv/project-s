@@ -3,21 +3,41 @@
     font-size: 30px;
     font-weight: 700;
     text-align: center;
+    text-transform: uppercase;
+    &_left{
+        color: whitesmoke;
+        font-size: 36px;
+        text-align: left;
+    }
     
 }
 @media screen and ( max-width: 1200px ){
     .title{
         font-size: 26px;
+        &_left{
+            font-size: 33px;
+        }
     }
     
 }
 @media screen and ( max-width: 991px ){
-
+    .title{
+        font-size: 21px;
+        &_left{
+            font-size: 28px;
+        }
+    }
 }
 
 
 @media screen and ( max-width: 767px ) {
-
+    .title{
+        font-size: 19px;
+        &_left{
+            font-size: 21px;
+            text-align: center;
+        }
+    }
 }  
 
 
