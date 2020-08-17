@@ -35,8 +35,48 @@
         font-weight: 300;
         font-size: 16px;
         columns: #0d0d0d;
-    }
+    }  
+}
+@media screen and ( max-width: 1200px ){
 
     
+}
+@media screen and ( max-width: 991px ){
+    .review{
+        
+        &__wrapper{
+            padding: 0 20px;
+        }
+    }    
 
 }
+
+
+@media screen and ( max-width: 767px ) {
+
+    .review{
+        &__wrapper{
+            padding: 0 20px;
+        }
+        &__item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                margin-bottom: 15px;
+            }
+        }
+    } 
+}  
+
+
+@media screen and ( max-width: 575px ){
+    .review{
+        &__item{
+            margin-top: 40px;
+            div{
+                margin-left: 0;
+                
+            }
+        }
+}   }
